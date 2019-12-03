@@ -1,0 +1,7 @@
+div {
+  /* Used code from https://www.w3.org/Style/Examples/007/center.en.html to learn how to center horizontally and vertically */
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
