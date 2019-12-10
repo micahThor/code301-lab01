@@ -4,20 +4,23 @@ main {
 
 section {
   display: flex;
+  flex-wrap: wrap;
   margin: auto;
   width: 480px;
   height: 767px;
-}
-
-div {
-  border: 1px solid;
 }
 
 /* On Desktop */
 @media( min-width: 960px ) {
 
   section {
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
     width: 960px;
     height: 700px;
+    border: 1px solid;
   }
 }
+
